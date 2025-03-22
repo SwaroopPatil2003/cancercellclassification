@@ -1,14 +1,11 @@
-# Cancer-Cell-Classifier-High-Acc
-Predict which cell is cancerous with 96% accuracy using SVM machine learning algorithm.
+Cancer Cell Classifier (96% Accuracy)
+This project uses Support Vector Machine (SVM) to classify cancerous cells with 96% accuracy. The model's performance is validated using F1 Score, Jaccard Index, and a Confusion Matrix.
 
-The model is very accurate verified by F1 score, jaccard index and confusion matrix.
+How It Works
+SVM Algorithm: Projects data into higher dimensions and classifies it using a kernel function (Linear, Polynomial, RBF, or Sigmoid – all tested in main.ipynb).
 
-Support Vector Machine(SVM) Algorithm:
-                
-                *Projects data to the higher-dimensions, than classifies them using a kernel.
-                
-                *Kernel function can be selected among linear, polynomial, RBF, and sigmoid. All are present in main.ipynb.
-                
-                *This algorithm fits very well for the data since our data is not very big.
+Why SVM?: It's a great fit for this dataset, offering high accuracy even with a relatively small amount of data.
 
-The dataset is present in the repo.
+📂 Dataset: Available in the repository.
+
+🚀 Ready to predict cancer cells with high precision!
